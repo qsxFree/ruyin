@@ -1,0 +1,34 @@
+@import "base";
+
+body {
+	background-color: $color-s;
+}
+
+h2 {
+	color: $color-t;
+}
+
+p {
+	color: $color-t;
+}
+
+.about {
+	background-image: url("../assets/bg-text/bg-text-about.svg");
+	height: auto !important;
+	h1 {
+		color: $color-p;
+	}
+	.about-me {
+		margin: 20px 0;
+		width: 90%;
+	}
+
+	.about-course {
+		margin: 20px 0;
+		width: 90%;
+	}
+}
+
+$color-s: $color-t;
+$color-t: $color-p;
+@import "sidenav";

@@ -1,0 +1,51 @@
+section#navigation {
+	width: 20%;
+	height: 100vh;
+	position: fixed;
+	display: flex;
+	top: 10%;
+	bottom: 10%;
+	left: 80px;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	overflow-x: hidden;
+
+	nav {
+		font-size: $par;
+		font-weight: 400;
+		height: 60%;
+		z-index: 5000;
+		ul {
+			list-style: none;
+			li {
+				padding: 10px 0;
+				a {
+					text-decoration: none;
+					color: $color-s;
+				}
+
+				a:hover {
+					color: $color-t;
+				}
+			}
+		}
+	}
+
+	.side-bottom {
+		justify-self: flex-end;
+		height: 10%;
+		img {
+			width: 100px;
+			margin: auto;
+		}
+		a {
+			color: $color-s;
+			font-size: 1.2em;
+		}
+	}
+}
+
+.active {
+	color: $color-t !important;
+}

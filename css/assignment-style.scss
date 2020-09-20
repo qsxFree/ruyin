@@ -1,0 +1,77 @@
+@import "base";
+
+h1 {
+	color: $color-s;
+}
+
+p {
+	color: $color-s;
+}
+
+.content {
+	background-image: url("../assets/bg-text/bg-text-#2.svg");
+	header {
+		position: sticky;
+		div .value {
+			font-weight: bolder;
+		}
+	}
+
+	.info {
+		section {
+			padding: 20px 30px;
+			width: 90%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+
+			h2 {
+				color: $color-s;
+				font-size: $h5;
+			}
+
+			h3 {
+				color: $color-s;
+				font-size: $h6;
+			}
+
+			ul {
+				color: $color-s;
+				font-size: $par;
+			}
+
+			img {
+				width: 200px;
+				align-self: center;
+			}
+
+			.images {
+				display: flex;
+				width: 100%;
+				justify-content: center;
+				.image {
+					width: 300px;
+					overflow: hidden;
+					margin: 20px;
+					img {
+						width: 300px !important;
+					}
+				}
+			}
+		}
+
+		.hyper {
+			a {
+				color: $color-p;
+				font-size: $h6;
+				font-weight: bolder;
+			}
+		}
+		.alter {
+			background-color: $color-p;
+		}
+	}
+}
+
+$color-t: $color-p;
+@import "sidenav";

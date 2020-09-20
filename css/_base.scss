@@ -1,0 +1,51 @@
+$color-p: #ffd856;
+$color-s: #373737;
+$color-t: #f1f1f1;
+$color-b: #f8f8f8;
+
+$font-b: "Roboto Mono", monospace;
+$header: 5em;
+$h2: 3.5em;
+$h3: 3em;
+$h4: 2.5em;
+$h5: 2em;
+$h6: 1.5em;
+$par: 1.3em;
+$quote: 1.1em;
+$sub: 0.8em;
+$tag: 14em;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: $font-b;
+}
+
+body {
+	background-color: $color-b;
+}
+
+h1 {
+	font-size: $header;
+	line-height: 120%;
+}
+
+p {
+	font-size: $par;
+	font-weight: 200;
+}
+
+.tag {
+	font-size: $tag;
+	font-weight: bolder;
+	color: $color-t;
+}
+
+.content {
+	margin-left: 20%;
+	height: 100vh;
+}
+
+ul {
+	font-size: $par;
+	font-weight: 200;
+}

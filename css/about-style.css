@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 120%;
+}
+
+p {
+  font-size: 1.3em;
+  font-weight: 200;
+}
+
+.tag {
+  font-size: 14em;
+  font-weight: bolder;
+  color: #f1f1f1;
+}
+
+.content {
+  margin-left: 20%;
+  height: 100vh;
+}
+
+ul {
+  font-size: 1.3em;
+  font-weight: 200;
+}
+
+body {
+  background-color: #373737;
+}
+
+h2 {
+  color: #f1f1f1;
+}
+
+p {
+  color: #f1f1f1;
+}
+
+.about {
+  background-image: url("../assets/bg-text/bg-text-about.svg");
+  height: auto !important;
+}
+
+.about h1 {
+  color: #ffd856;
+}
+
+.about .about-me {
+  margin: 20px 0;
+  width: 90%;
+}
+
+.about .about-course {
+  margin: 20px 0;
+  width: 90%;
+}
+
+section#navigation {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 10%;
+  bottom: 10%;
+  left: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow-x: hidden;
+}
+
+section#navigation nav {
+  font-size: 1.3em;
+  font-weight: 400;
+  height: 60%;
+  z-index: 5000;
+}
+
+section#navigation nav ul {
+  list-style: none;
+}
+
+section#navigation nav ul li {
+  padding: 10px 0;
+}
+
+section#navigation nav ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+section#navigation nav ul li a:hover {
+  color: #ffd856;
+}
+
+section#navigation .side-bottom {
+  justify-self: flex-end;
+  height: 10%;
+}
+
+section#navigation .side-bottom img {
+  width: 100px;
+  margin: auto;
+}
+
+section#navigation .side-bottom a {
+  color: #f1f1f1;
+  font-size: 1.2em;
+}
+
+.active {
+  color: #ffd856 !important;
+}
+/*# sourceMappingURL=about-style.css.map */
